@@ -1,5 +1,6 @@
 ![logo](https://hpatches.github.io/assets/hpatches-logo.png "logo") 
 ## Extracting and saving descriptors from HPatches sequences
+This repository, contains examples on how to extract descriptors from sequences of the  [HPatches dataset](https://github.com/hpatches/hpatches-dataset).
 
 ### Descriptor files format
 
@@ -14,8 +15,8 @@ consists of 100/65=2 patches. It follows that a valid descriptor
 ### Computing descriptors: templates for several programming languages
 
 We provide examples for several languages, together with guides on how
-to use template to extract a trivial descriptor from the images with
-the patch collections. 
+to use template to extract the trivial (&#956;,&#963;) descriptor from
+`HPatches`.
 
 * [c++](c++/readme.md)
 * [python](python/readme.md)
