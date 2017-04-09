@@ -1,4 +1,4 @@
-![logo](../utils/imgs/hpatch.png "logo") 
+![logo](https://hpatches.github.io/assets/hpatches-logo.png "logo") 
 ## Extracting and saving descriptors from patches
 
 ### Descriptor files format
@@ -23,7 +23,3 @@ the patch collections.
 * [matlab](matlab/readme.md)
 
 Please check the individual readme files for language-specific information.
-
-Note that `HPatch` also supports `packed` descriptors which are
-`openCV` binary descriptors that are saved as `uchars`. In that case,
-the number of columns will be `D/8`.
