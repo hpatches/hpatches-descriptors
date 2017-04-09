@@ -5,6 +5,12 @@ require 'torch'
 require 'lfs'
 require 'csvigo'
 
+if (#arg)<2 then
+   print("Usage th hpatches_extract.lua hpatches_db_root_folder")
+   os.exit()
+end
+
+
 -- hard-coded patch-image extention
 ext = '.png'
 
@@ -12,7 +18,7 @@ ext = '.png'
 descr_name = 'misigma'
 
 -- folder with sequence-patches to describe (root folder)
-patches_folder = '../../hpatch-release/'
+patches_folder = arg[2]
 
 -- make the dir with the results
 lfs.mkdir(descr_name)

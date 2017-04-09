@@ -10,9 +10,15 @@ using namespace boost::filesystem;
 
 int main(int argc, char *argv[])
 {
+  if(argc<2){
+    std::cout << "Usage ./hpatches_extract hpatches_db_root_folder" << "\n";
+    std::cout << "e.g. ./hpatches_extract ~/hpatches-release" << "\n";
+  }	 
+  
   // get all the sequences
-  std::string descr_name = "sigmami";
-  std::string p = "../../hpatch-release/";
+  std::string descr_name = "misigma";
+  std::string p = argv[1];
+  std::cout << p << "\n";
   std::vector<std::string> seqs; 
   if(is_directory(p)) {
     for(auto& entry : boost::make_iterator_range(directory_iterator(p), {}))
