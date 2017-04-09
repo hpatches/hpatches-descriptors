@@ -1,4 +1,4 @@
-![logo](../../utils/imgs/hpatch.png "logo") 
+![logo](https://hpatches.github.io/assets/hpatches-logo.png "logo") 
 ## Extracting and saving descriptors from patches - Python
 
 Sample code that shows how to extract descriptors from the HPatch

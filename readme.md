@@ -8,9 +8,9 @@ The HPatches evaluation protocol expects a `.csv` file per `.png`
 image, with `N` rows and `D` columns, where `N` is the number of
 patches in the sequence, and `D` is the descriptor dimensionality.
 
-For example, the `v_dogman\ref.png` image is of size `100x65`, thus it
-consists of 100/65=2 patches. It follows that a valid descriptor
-`.csv` file for this image, would consist of 2 rows.
+For example, the `v_dogman\ref.png` image is of size `38350x65`, thus it
+consists of `38350/65=590` patches. It follows that a valid descriptor
+`.csv` file for this image, would consist of `590` rows.
 
 ### Computing descriptors: templates for several programming languages
 
@@ -25,7 +25,7 @@ to use template to extract the trivial (&#956;,&#963;) descriptor from
 
 Please check the individual readme files for language-specific information.
 
-### Computing descriptors: published baselines
+### Computing descriptors: published baselines [WIP]
 
 In the folder `baselines` we collect several example implementations
 of computing descriptors for HPatches sequences, for previously
